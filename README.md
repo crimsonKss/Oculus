@@ -1,3 +1,5 @@
+# This is an attempt at Distant Horizons multi-version support, be patient
+
 <p align="center">
   <img src="banner.png">
 </p>
@@ -12,7 +14,7 @@ Oculus is an Unofficial Fork of ["Iris"](https://www.curseforge.com/minecraft/mc
 Oculus is not and never will be compatible with Optifine!
 
 ## Dependencies
-Oculus requires [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium) made by Asek3!
+Oculus requires [Embeddium](https://modrinth.com/mod/embeddium) made by embeddedt!
 
 ## Features
 * Performance. Oculus should fully utilize your graphics card when paired with optimization mods like Rubidium.
