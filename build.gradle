@@ -1,5 +1,5 @@
 plugins {
-	id 'dev.architectury.loom' version '1.2-SNAPSHOT'
+	id 'dev.architectury.loom' version '1.6-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -16,7 +16,8 @@ loom {
 				"oculus-batched-entity-rendering.mixins.json",
 				"mixins.oculus.compat.sodium.json",
 				"mixins.oculus.compat.indigo.json",
-				"mixins.oculus.compat.indium.json"
+				"mixins.oculus.compat.indium.json",
+				"mixins.oculus.compat.dh.json"
 		]
 	}
 	mixin.defaultRefmapName = "oculus-mixins-refmap.json"
@@ -47,6 +48,7 @@ dependencies {
 	
 	modCompileOnly "maven.modrinth:rubidium:0.6.2c"
 	//modCompileOnly "me.jellysquid.mods:Rubidium:0.6.3"
+	modCompileOnly "maven.modrinth:distanthorizons:2.2.1-a-1.19.2"
 }
 
 processResources {
